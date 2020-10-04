@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="false"
+    android:background="@color/mycolor"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Enter 1st number:-"
+        android:textColor="#131212"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="Enter 2nd number:-"
+        android:textColor="#100F0F"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="150dp"
+        android:text="Result:-"
+        android:textColor="#0E0E0E"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/num1txt"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@+id/textView"
+        android:background="#009688"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/num2txt"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="260dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="70dp"
+        android:background="#009688"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/result"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="260dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="150dp"
+        android:background="#009688"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="250dp"
+        android:background="#009688"
+        android:text="Addition"
+        android:textColor="#171616"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/subBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="250dp"
+        android:background="#009688"
+        android:text="Subtraction"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/mulBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="330dp"
+        android:background="#009688"
+        android:text="Multiplication"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/divBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="330dp"
+        android:background="#009688"
+        android:text="Division"
+        android:textColor="#0D0E0E"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/clrBtn"
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="450dp"
+        android:background="#009688"
+        android:text="Clear"
+        android:textColor="#0E0E0E"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+
+
+</RelativeLayout>
